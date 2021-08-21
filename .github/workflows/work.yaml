@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 jobs:
   format-and-lint:
-    rans-on: macos-11
+    runs-on: macos-11
 
     steps:
       - name: Run the linter
