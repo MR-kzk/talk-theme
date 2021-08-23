@@ -1,0 +1,19 @@
+@import './variables.scss';
+
+body {
+  font-size: 62.5%;
+  color: $font-color-grey;
+  line-height: 2;
+  letter-spacing: .1em;
+}
+h1 {
+  color: $font-color-green;
+  font-size: $font-size-large;
+}
+a {
+  text-decoration: none;
+  color: $font-color-grey;
+  &:hover {
+    opacity: .7;
+  }
+}
