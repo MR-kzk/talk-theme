@@ -1,0 +1,13 @@
+@import './variables.scss';
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  background-color: $color-white;
+
+  &__contents {
+    display: flex;
+    align-items: center;
+  }
+}
